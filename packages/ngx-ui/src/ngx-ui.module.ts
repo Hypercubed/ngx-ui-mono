@@ -7,7 +7,7 @@ import { InjectionService, IconRegisteryService } from './services';
 import { DirectivesModule } from './directives';
 import { PipesModule } from './pipes';
 
-import { NgxUIToltipsModule } from '@swimlane/ngx-ui-tooltips/src/';
+import { NgxUIToltipsModule } from '@swimlane/ngx-ui-tooltips';
 
 import {
   CalendarModule, CodeEditorModule, LoadingModule,

@@ -16,6 +16,7 @@ package-lock.json
 # App
 /.vscode
 dist/
+release/
 
 # lerna
 lerna-debug.log
