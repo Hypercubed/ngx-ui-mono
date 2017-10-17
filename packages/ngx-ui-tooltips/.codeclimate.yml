@@ -1,0 +1,26 @@
+---
+engines:
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - javascript
+  scss-lint:
+    enabled: true
+  # nodesecurity:
+  #  enabled: true
+  # eslint:
+  #  enabled: true
+  #  channel: "eslint-2"
+  fixme:
+    enabled: true
+  markdownlint:
+    enabled:
+ratings:
+   paths:
+   - "**.js"
+exclude_paths:
+- dist/
+- node_modules/
+- release/
+- tasks/

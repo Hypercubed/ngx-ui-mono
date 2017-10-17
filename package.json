@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "start": "lerna run start --stream",
+    "package": "lerna run package --stream",
+    "bootstrap": "lerna bootstrap"
+  },
+  "devDependencies": {
+    "@angular/core": "^4.4.5",
+    "lerna": "^2.4.0",
+    "rxjs": "^5.4.3"
+  },
+  "name": "ngx-ui-mono",
+  "version": "0.0.0",
+  "description": "Experimental ngx-ui mono repo",
+  "main": "index.js",
+  "dependencies": {
+    "rxjs": "^5.4.3"
+  },
+  "author": "Swimlane",
+  "license": "MIT"
+}

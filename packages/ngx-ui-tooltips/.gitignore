@@ -1,0 +1,18 @@
+# WebStorm
+.idea/
+
+# NPM
+npm-debug.log
+node_modules/
+
+# Yarn
+yarn.lock
+package-lock.json
+
+# General
+._.DS_Store
+.DS_Store
+
+# App
+/.vscode
+dist/
